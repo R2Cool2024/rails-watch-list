@@ -41,13 +41,4 @@ List.create!(name: "favoris")
 
 List.create!(name: "a voir")
 
-#  30.times do
-#     movie = Movie.new(
-#       title:    "Faker::Movie.title",
-#       overview: "Faker::Movie.quote",
-#       poster_url: "https://image.tmdb.org/t/p/original/MvYpKlpFukTivnlBhizGbkAe3v.jpg"
-#       rating:  rand(1..10)
-#     )
-#     movie.save!
-#   end
  puts 'Finished!'
